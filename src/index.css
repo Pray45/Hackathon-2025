@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Anton';
+  src: url('/fonts/anton.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-anton{
+    font-family: anton;
+}
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .marquee-track {
+    animation: scroll 15s linear infinite;
+  }
+  .marquee-content {
+    white-space: nowrap;
+  }
