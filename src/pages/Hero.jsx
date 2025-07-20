@@ -6,7 +6,7 @@ const text = "CODE ARCADE";
 const Hero = () => {
   return (
     <div className="flex flex-col">
-      <section className="mbl min-h-screen md:h-screen relative bg-[#8FD8EA] overflow-hidden flex flex-col justify-between">
+      <section className="min-h-[100svh] md:h-screen relative bg-[#8FD8EA] overflow-hidden flex flex-col justify-between">
         <Motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -115,12 +115,16 @@ const Hero = () => {
           <div className="marquee-track flex absolute whitespace-nowrap">
             <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-5 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
             <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-5 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
           </div>
