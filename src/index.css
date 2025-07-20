@@ -7,21 +7,25 @@
   font-style: normal;
 }
 
+html{
+  height: -webkit-fill-available;
+}
+
 .font-anton{
     font-family: anton;
 }
 
-  @keyframes scroll {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
   }
-  .marquee-track {
-    animation: scroll 15s linear infinite;
+  100% {
+    transform: translateX(-50%);
   }
-  .marquee-content {
-    white-space: nowrap;
-  }
+}
+.marquee-track {
+  animation: scroll 15s linear infinite;
+}
+.marquee-content {
+  white-space: nowrap;
+}
