@@ -7,10 +7,6 @@
   font-style: normal;
 }
 
-*{
-  height: -webkit-fill-available;
-}
-
 .font-anton{
     font-family: anton;
 }
