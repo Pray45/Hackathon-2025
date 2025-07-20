@@ -6,7 +6,7 @@ const text = "CODE ARCADE";
 const Hero = () => {
   return (
     <div className="flex flex-col">
-      <section className="min-h-screen md:h-screen relative bg-[#8FD8EA] overflow-hidden flex flex-col justify-between">
+      <section className="mbl min-h-screen md:h-screen relative bg-[#8FD8EA] overflow-hidden flex flex-col justify-between">
         <Motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -17,8 +17,8 @@ const Hero = () => {
 
         <div>
           <div className='sm:hidden flex items-center justify-center relative'>
-            <img src="bg.png" className='mt-15' alt="" />
-            <h1 className="flex font-anton absolute text-[25vw] leading-none text-black">
+            <img src="bg.png" className='mt-0' alt="" />
+            <h1 className="flex font-anton absolute text-[25vw] mb-10 leading-none text-black">
               <Motion.span
                 className='flex'
                 initial={{ x: -50, opacity: 0 }}
@@ -31,8 +31,8 @@ const Hero = () => {
             </h1>
           </div>
 
-          <div className="flex-1 flex flex-col justify-center items-center px-6 py-12 relative">
-            <div className="z-10 mb-20">
+          <div className="flex flex-col justify-center items-center relative">
+            <div className="z-10 sm:mb-20">
               <div className='flex w-screen justify-between items-center'>
                 <Motion.img
                   src="red.svg"
@@ -76,7 +76,7 @@ const Hero = () => {
               </div>
 
               <Motion.p
-                className="font-poppins font-bold text-[3.5vw] px-3 text-left sm:text-[1.1vw] sm:text-center text-black sm:w-1/2 mx-auto mb-8 leading-relaxed"
+                className="font-poppins text-[3.5vw] px-3 text-left sm:text-[1.1vw] sm:text-center text-black sm:w-1/2 mx-auto mb-8 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 0.8 }}
@@ -111,16 +111,16 @@ const Hero = () => {
           transition={{ delay: 2, duration: 1, ease: 'easeOut' }}
         />
 
-        <div className="h-10 sm:h-15 w-screen bg-[#875CFF] border-t-2 overflow-hidden relative">
+        <div className="h-10 sm:h-[8vh] 2xl:h-15 w-screen bg-[#875CFF] border-t-2 overflow-hidden relative">
           <div className="marquee-track flex absolute whitespace-nowrap">
-            <div className="marquee-content px-4 text-white font-bold pt-1 text-2xl sm:text-[2vw] gap-5">
+            <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack Insert Brain. Press Start. Hack Insert Brain. Press Start. Hack Insert Brain.
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-5 animate-spin' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
-            <div className="marquee-content px-4 text-white font-bold pt-1 text-2xl sm:text-[2vw] gap-5">
+            <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack Insert Brain. Press Start. Hack Insert Brain. Press Start. Hack Insert Brain.
+                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-5 animate-spin' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
           </div>

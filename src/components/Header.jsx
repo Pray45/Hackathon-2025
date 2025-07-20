@@ -7,10 +7,10 @@ const Header = () => {
         
         <ul className='hidden sm:flex w-full items-center justify-around'>
             
-            <li className='font-anton leading-none py-1 text-[3.5vw]' >Code Arcade</li>
+            <li className='font-anton leading-none py-1 text-[3vw]' >Code Arcade</li>
             
             <li>
-                <ul className='flex font-anton text-[2vw] gap-10'>
+                <ul className='flex font-anton text-[1.5vw] gap-10'>
                     <li className='cursor-pointer' >Home</li>
                     <li className='cursor-pointer' >Timeline</li>
                     <li className='cursor-pointer' >Rewards</li>
