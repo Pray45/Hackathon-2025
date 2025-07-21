@@ -25,17 +25,17 @@ const Header = () => {
         <ul className='flex sm:hidden w-full items-center justify-around'>
 
           <li>
-            <img src="/devfolio.svg" className='w-[8vw]' alt="" />
+            <img src="img/devfolio.svg" className='w-[8vw]' alt="" />
           </li>
 
           <li className='flex gap-2'>
-            <img src="red.svg" className='w-10' alt="" />
+            <img src="img/red.svg" className='w-10' alt="" />
             <h1 className='text-black text-[8vw] font-anton' >CodeArcade</h1>
-            <img src="red.svg" className='rotate-180 w-10' alt="" />
+            <img src="img/red.svg" className='rotate-180 w-10' alt="" />
           </li>
 
           <li>
-            <img src="/menu.svg" className='w-[8vw]' alt="" />
+            <img src="img/menu.svg" className='w-[8vw]' alt="" />
           </li>
 
         </ul>

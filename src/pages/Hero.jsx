@@ -16,8 +16,10 @@ const Hero = () => {
         </Motion.div>
 
         <div>
+            <img src="img/estar.svg" className='flex absolute top-20 right-20 w-20 sm:hidden' alt="" />
+            <img src="img/estar.svg" className='flex absolute top-30 -left-6 w-15 sm:hidden' alt="" />
           <div className='sm:hidden flex items-center justify-center relative'>
-            <img src="bg.png" className='mt-0' alt="" />
+            <img src="img/bg.png" className='mt-0' alt="" />
             <h1 className="flex font-anton absolute text-[25vw] mb-10 leading-none text-black">
               <Motion.span
                 className='flex'
@@ -27,7 +29,7 @@ const Hero = () => {
               >
                 {text}
               </Motion.span>
-              <img src="arw.svg" className='w-25 mb-20 mr-5' alt="" />
+              <img src="img/arw.svg" className='w-25 mb-20 mr-5' alt="" />
             </h1>
           </div>
 
@@ -35,7 +37,7 @@ const Hero = () => {
             <div className="z-10 sm:mb-20">
               <div className='flex w-screen justify-between items-center'>
                 <Motion.img
-                  src="red.svg"
+                  src="img/red.svg"
                   className='hidden sm:flex w-[15vw]'
                   alt=""
                   initial={{ x: -400, opacity: 0 }}
@@ -67,7 +69,7 @@ const Hero = () => {
 
                 <Motion.img
                   className='hidden sm:flex rotate-180 w-[15vw]'
-                  src="red.svg"
+                  src="img/red.svg"
                   alt=""
                   initial={{ x: -400, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}
@@ -104,27 +106,27 @@ const Hero = () => {
 
         <Motion.img
           className='hidden sm:flex absolute w-[100vw] h-[30vw] -bottom-[12.5vw] z-0'
-          src="/bgwave.png"
+          src="img/bgwave1.png"
           alt=""
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 2, duration: 1, ease: 'easeOut' }}
         />
 
-        <div className="h-10 sm:h-[8vh] 2xl:h-15 w-screen bg-[#875CFF] border-t-2 overflow-hidden relative">
+        <div className="h-10 sm:h-[8vh] 2xl:h-15 w-screen bg-[#875CFF] border-t-2 border-b-2 overflow-hidden relative z-0">
           <div className="marquee-track flex absolute whitespace-nowrap">
             <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
             <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
-                Insert Brain. Press Start. Hack <img src="Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
+                Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
           </div>

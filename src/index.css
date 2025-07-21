@@ -7,9 +7,25 @@
   font-style: normal;
 }
 
-.mbl{
-  height: -webkit-fill-available;
+::-webkit-scrollbar {
+  width: 14px; 
 }
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(to right, rgba(0,0,0,0.8), white 30%, white 70%, rgba(0,0,0,0.8));
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 0;
+  border: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
 
 .font-anton{
     font-family: anton;
