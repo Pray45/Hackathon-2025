@@ -66,7 +66,7 @@ const FAQs = () => {
                 <Motion.div
                   onClick={() => toggleFAQ(idx)}
                   whileTap={{ scale: 0.98 }}
-                  className={`btn-shadow flex items-center gap-4 p-6 bg-[#FFFFFF] text-[#875CFF] font-anton text-sm md:text-lg lg:text-3xl shadow-lg cursor-pointer w-full max-w-5xl ${
+                  className={`btn-shadow flex items-center gap-4 p-6 bg-[#FFFFFF] text-[#875CFF] font-anton text-[2vh] sm:text-[2vw] shadow-lg cursor-pointer w-full max-w-5xl ${
                     isEven ? '' : 'flex-row-reverse text-right'
                   }`}
                 >
