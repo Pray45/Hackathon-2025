@@ -9,14 +9,16 @@ const Header = () => {
             
             <li className='font-anton leading-none py-1 text-[3vw]' >Code Arcade</li>
             
-            <li>
-                <ul className='flex font-anton text-[1.5vw] gap-10'>
-                    <li className='cursor-pointer' >Home</li>
-                    <li className='cursor-pointer' >Timeline</li>
-                    <li className='cursor-pointer' >Rewards</li>
-                    <li className='cursor-pointer' >Our Sponsors</li>
-                </ul>
-            </li>
+            <ul className="flex font-anton text-[1.5vw] gap-10">
+              {["Timeline", "Rewards", "Our Sponsors","FAQs"].map((item, index) => (
+                <li
+                  key={index}
+                  className="relative cursor-pointer after:content-[''] after:absolute after:left-1/2 after:bottom-0 after:w-0 after:h-[4px] after:bg-black after:transition-all after:duration-300 hover:after:w-full hover:after:left-0"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
             
             <Button text="Register Now" path="https://google.com"/>
 

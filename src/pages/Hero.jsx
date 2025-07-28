@@ -5,7 +5,7 @@ const text = "CODE ARCADE";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col">
+    <div className="w-full flex flex-col">
       <section className="min-h-[100svh] md:h-screen relative bg-[#8FD8EA] overflow-hidden flex flex-col justify-between">
         <Motion.div
           initial={{ y: -100, opacity: 0 }}
@@ -20,7 +20,7 @@ const Hero = () => {
             <img src="img/estar.svg" className='flex absolute top-30 -left-6 w-15 sm:hidden' alt="" />
           <div className='sm:hidden flex items-center justify-center relative'>
             <img src="img/bg.png" className='mt-0' alt="" />
-            <h1 className="flex font-anton absolute text-[25vw] mb-10 leading-none text-black">
+            <h1 className="flex font-anton absolute text-[25vw] mb-10 pl-2 leading-none text-black">
               <Motion.span
                 className='flex'
                 initial={{ x: -50, opacity: 0 }}
@@ -78,7 +78,7 @@ const Hero = () => {
               </div>
 
               <Motion.p
-                className="font-poppins text-[3.5vw] px-3 text-left sm:text-[1.1vw] sm:text-center text-black sm:w-1/2 mx-auto mb-8 leading-relaxed"
+                className="font-poppins text-[4vw] px-4 text-left sm:text-[1.1vw] sm:text-center text-black sm:w-1/2 mx-auto mb-8 leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1, duration: 0.8 }}
@@ -110,19 +110,19 @@ const Hero = () => {
           alt=""
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 2, duration: 1, ease: 'easeOut' }}
+          transition={{ delay: 0.5, duration: 1, ease: 'easeOut' }}
         />
 
-        <div className="h-10 sm:h-[8vh] 2xl:h-15 w-screen bg-[#875CFF] border-t-2 border-b-2 overflow-hidden relative z-0">
+        <div className="h-10 sm:h-[8vh] 2xl:h- w-screen bg-[#875CFF] border-t-2 border-b-2 overflow-hidden relative z-0">
           <div className="marquee-track flex absolute whitespace-nowrap">
-            <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
+            <div className="marquee-content px-4 text-white font-bold sm:pt-[0.3vw] text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
                 Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
                 Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
                 Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin mr-20' style={{ animationDuration: '3s' }} alt="" />
               </h1>
             </div>
-            <div className="marquee-content px-4 text-white font-bold sm:pt-2 text-2xl sm:text-[2vw] gap-5">
+            <div className="marquee-content px-4 text-white font-bold sm:pt-[0.3vw] text-2xl sm:text-[2vw] gap-5">
               <h1 className='flex items-center gap-5'>
                 Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />
                 Insert Brain. Press Start. Hack <img src="img/Vector.svg" className='w-8 animate-spin' style={{ animationDuration: '3s' }} alt="" />

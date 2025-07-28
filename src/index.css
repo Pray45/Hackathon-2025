@@ -13,7 +13,6 @@
 
 ::-webkit-scrollbar-track {
   background: linear-gradient(to right, rgba(0,0,0,0.8), white 30%, white 70%, rgba(0,0,0,0.8));
-  
 }
 
 ::-webkit-scrollbar-thumb {
@@ -44,4 +43,8 @@
 }
 .marquee-content {
   white-space: nowrap;
+}
+
+.btn-shadow {
+  box-shadow: 5px 5px 0 #585855;
 }

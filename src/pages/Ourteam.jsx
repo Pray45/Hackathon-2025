@@ -12,14 +12,14 @@ const teamData = [
 
 const Ourteam = () => {
   return (
-    <div className="bg-[#D0C0EC] w-screen overflow-hidden relative pb-1">
+    <div className="bg-[#A88AFF] w-screen overflow-hidden relative pb-1">
       <img
         className="w-[70vw] justify-self-end flex"
         src="img/ourteam.svg"
         alt=""
       />
 
-      <div className="grid grid-cols-2 sm:px-0 px-3 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-4 mt-12 max-w-6xl mx-auto pb-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:gap-8 gap-5 mt-12 max-w-6xl mx-auto pb-10">
         {teamData.map((member, index) => (
           <Motion.div
             key={index}
